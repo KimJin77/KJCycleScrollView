@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KJCycleScrollView_Example' do
+  pod 'KJCycleScrollView', :path => '../'
+  pod 'SDWebImage'
+  target 'KJCycleScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
